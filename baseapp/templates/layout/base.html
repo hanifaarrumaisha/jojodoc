@@ -1,0 +1,84 @@
+{% load static %}
+{% load staticfiles %}
+
+<!DOCTYPE HTML>
+<html lang=en>
+
+<head>
+    <meta charset="utf-8">
+    <title>Jojonomic Pro</title>
+    <!-- Meta Data here -->
+    <meta name="theme-color" content="#2196F3">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!-- Links -->
+    <!-- TODO ganti link bs -->
+    
+    <link type="text/css" rel="stylesheet" href="{% static 'css/lib/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link type="image/x-icon" rel="shortcut icon" href="{% static 'img/favicon-96x96.png' %}" />
+    <link type="image/png" rel="shortcut icon" href="{% static 'img/favicon-16x16.png' %}" />
+    <link type="text/css" rel="stylesheet" href="{% static 'css/lib/bootstrap.min.css' %}" media="screen,projection"/>    
+    <link type="text/css" rel="stylesheet" href="{% static 'css/style_pisah.css' %}" media="screen,projection"/>    
+    <!-- <link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}" media="screen,projection" /> -->
+    <link type="text/css" rel="stylesheet" href="{% static 'css/style_general.css' %}" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="{% static 'css/style_navbar.css' %}" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="{% static 'css/style_sidebar.css' %}" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="{% static 'css/style_screen.css' %}" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="{% static 'css/style_example.css' %}" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="{% static 'css/index.bundle.css' %}" media="screen,projection" />
+    <script
+    src="https://code.jquery.com/jquery-2.1.4.min.js"
+    integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw="
+    crossorigin="anonymous"></script>    
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- Scrollbar Custom -->
+    <link type="text/css" rel="stylesheet" href="{% static 'css/lib/scrollbar-style/style.css' %}" />
+    <link type="text/css" rel="stylesheet" href="{% static 'css/lib/scrollbar-style/prettify/prettify.css' %}" />
+    <script src="{% static 'css/lib/scrollbar-style/prettify/prettify.js' %}"></script>
+    <script src="{% static 'css/lib/scrollbar-style/jquery.scrollbar.js' %}"></script>
+    <script>
+        jQuery(document).ready(function(){
+            jQuery('.scrollbar-macosx').scrollbar();
+        });
+    </script>
+    
+    {% block css %}
+    {% endblock %}
+
+</head>
+
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="blur-svg">
+    <defs>
+        <filter id="blur-filter">
+            <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+        </filter>
+    </defs>
+</svg>
+
+<body >
+    <input type="hidden"  id="session-tutorial" value="">
+    <!-- Header Line -->
+    <div class="header-shadow"></div>
+    <div id="header1"></div>
+    <div id="header2"></div>
+    <div id="header3"></div>
+    <div id="header4"></div>
+    <div id="header5"></div>
+
+    {% include 'partials/sidebar.html' %}
+
+    {% include 'partials/navbar.html' %}
+
+    <div id="page-content-wrapper" class="">
+
+        <div class="container-fluid">
+                {% block content %}
+                {% endblock %}
+        </div>
+    </div>
+
+    <!-- /#page-content-wrapper -->
+<!-- </div> -->
+
+</body>
+</html>

@@ -1,0 +1,336 @@
+
+/* Tablet Screen and desktop mechanic view */
+@media only screen and (min-width: 768px) {
+    .headbar {
+        display: none;
+    }
+    #page-content-wrapper {
+        padding: 60px 20px 20px 20px;
+    }
+    #wrapper {
+        padding-left: 250px;
+    }
+
+    /*#wrapper.toggled {*/
+        /*padding-left: 250px;*/
+    /*}*/
+
+    #wrapper .navbar{
+        padding-left: 70px;
+    }
+    #wrapper .navbar{
+        padding-left: 250px;
+    }
+    /*#wrapper.toggled .navbar .container-fluid{*/
+        /*padding-top: 2px;*/
+    /*}*/
+
+
+    #wrapper  #sidebar-wrapper {
+        left: 250px;
+        /*overflow: auto;*/
+
+    }
+
+
+    /*icon position - no-toogled*/
+    #wrapper .sidebar-nav div.panel .sidebar-icon.icon-hover {
+        left: -40px;
+        display: block;
+    }
+
+    .sidebar-nav li:not(.sidebar-brand) {
+        margin-right: 0px;
+    }
+
+    #wrapper .sidebar-nav li {
+        margin-right: 0;
+    }
+    #wrapper .sidebar-nav li.summary-link {
+        margin-right: 45px;
+    }
+    #wrapper .sidebar-nav hr {
+        width: 90%;
+        opacity: 1;
+        transition: 0.2s all;
+        background-color: #6b6c6f;
+        border-top: 1px solid #6b6c6f;
+    }
+    #sidebar-wrapper .sidebar-nav hr{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .menu-head .jojo-icon{
+        visibility: hidden;
+    }
+    .product .product-icon-mobile{
+        display: none;
+    }
+
+    .floating-prompt-container {
+        /*padding-left: 300px;*/
+        /*padding-left: 72px;*/
+    }
+    .floating-prompt-container .row {
+        width: 100%;
+        min-width: inherit;
+        max-width: inherit;
+        margin: auto;
+    }
+    .floating-prompt-container .col-1 {
+        padding: 0;
+    }
+    .floating-prompt-container .col-2,
+    .floating-prompt-container .col-3 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+
+    .form-horizontal .control-label.label-right {
+        text-align: right;
+    }
+
+    .com-summary {
+        display: none;
+    }
+    #com-summary-container {
+        padding:0;
+    }
+
+    .box {
+        padding: 10px;
+    }
+    .box-info .box {
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-height: 801px) {
+    .sidebar-profile {
+        display: block;
+        position: fixed;
+        width: 250px;
+        padding-left: 0px;
+        margin: auto;
+        opacity: 0;
+        padding-top: 30px;
+        transition: 0.2s all;
+        bottom: 0px;
+        background-color: #333133;
+        padding-bottom: 10px;
+    }
+    .panel-support{
+        padding-bottom: 100px;
+    }
+
+}
+@media only screen and (max-height: 800px) {
+    .sidebar-profile {
+        display: block;
+        width: 250px;
+        padding-left: 0px;
+        margin: auto;
+        opacity: 0;
+        padding-top: 30px;
+        padding-bottom:30px;
+        transition: 0.2s all;
+        bottom: 0px;
+        background-color: #333133;
+    }
+}
+@media only screen and (max-width: 1920px){
+    .btn-tile.btn-radio.medium{
+        width: 24.5%;
+    }
+    .register-form .col-md-4 {
+        width: 35%;
+    }
+    .register-form .col-md-offset-4 {
+        margin-left: 32.5%;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .register-form .col-md-4 {
+        width: 44%;
+    }
+    .register-form .col-md-offset-4 {
+        margin-left: 28%;
+    }
+}
+@media only screen and (max-width: 1366px) {
+    .register-form .col-md-4 {
+        width: 50%;
+    }
+    .register-form .col-md-offset-4 {
+        margin-left: 25%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .register-form .col-md-4 {
+        width: 92%;
+    }
+    .register-form .col-md-offset-4 {
+        margin-left: 4%;
+    }
+    .btn-tile.btn-radio.medium {
+        font-size: 90%;
+        padding-top: 60px;
+        background-size: 21%;
+        max-height: 106px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .error-container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .error-container img {
+        height: 180px;
+    }
+
+    .error-container .background-effect {
+        height: 430px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .register-form .col-md-4 {
+        width: 94%;
+    }
+    .register-form .col-md-offset-4 {
+        margin-left: 3%;
+    }
+    .btn-tile.btn-radio {
+        width: 32.5%;
+    }
+    .btn-tile.btn-radio.medium {
+        width: 24%;
+        font-size: 75%;
+        background-size: 37%;
+    }
+    #wrapper {
+        padding-left: 70px;
+    }
+    #wrapper  #sidebar-wrapper {
+        left: 75px;
+    }
+    #wrapper .navbar{
+        padding-left: 75px;
+
+    }
+    #wrapper .logo-container img, #wrapper .sidebar-profile, #wrapper .sidebar-nav hr{
+        opacity: 0;
+    }
+    /*icon position - no-toogled*/
+    #wrapper .sidebar-nav{
+        padding-top: 145px;
+    }
+    #wrapper .sidebar-nav div.panel .sidebar-icon.icon-hover {
+        left: 202px;
+        display: block;
+
+    }
+    #sidebar-wrapper {
+        width: 248px;
+    }
+    .navbar-header {
+        float: left;
+        display: none;
+    }
+    .sidebar-nav li {
+        /*margin-right: 80px;*/
+    }
+    .sidebar-nav .sidebar-toggles{
+        position: inherit;
+        left: 142px;
+        top: 13px;
+    }
+    .sidebar-nav span.arrow {
+        display: none;
+    }
+
+    .menu-head .btn-jojo-product{
+        left: 4px;
+        position: relative;
+    }
+    .menu-head a.btn-jojo-product .fa {
+        font-size: 28px;
+    }
+
+    #menu-product{
+        left: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 145px;
+    }
+
+    .toggled #menu-product {
+        left: 100px;
+    }
+    #menu-product .product{
+        width : 100%;
+        margin-bottom: 10px;
+    }
+    .product .product-icon{
+        display: none;
+    }
+    .product .product-icon-mobile{
+        background-size: 50px;
+        width: 50px;
+        height: 50px;
+    }
+    .product-label{
+        display: none;
+    }
+
+    #wrapper .sidebar-nav hr {
+        width: 100%;
+        opacity: 1;
+        transition: 0.2s all;
+        background-color: #6b6c6f;
+        border-top: 1px solid #6b6c6f;
+    }
+    #sidebar-wrapper .sidebar-nav hr{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .navbar-right {
+        float: right !important;
+        margin-right: -15px;
+    }
+    .navbar-nav>li {
+        float: left;
+    }
+
+    .floating-prompt {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .floating-prompt-container .row {
+        width: 100%;
+        min-width: 300px;
+        max-width: 650px;
+        margin: auto;
+    }
+    .notification-screen#blank-screen .floating-container {
+        text-align: left;
+        margin-left: 5px;
+        padding-right: 15px;
+        margin-top : 50px;
+    }
+    .main-wheel{
+        width: 100%;
+        position: absolute;
+        margin-top: -100px;
+        top:0px;
+    }
+    .jojo-icon {
+        background-size: 45%;
+    }
+}

@@ -1,0 +1,173 @@
+/***** animating hamburger and its style *****/
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: inherit;
+}
+
+.navbar-inverse .navbar-toggle {
+  border: none;
+}
+
+.navbar-header .icon-bar {
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+}
+
+.navbar-header .top-bar {
+  transform-origin: 10% 10%;
+  -webkit-transform-origin: 10% 10%;
+}
+
+.navbar-header .low-bar {
+  transform-origin: 10% 90%;
+  -webkit-transform-origin: 10% 90%;
+}
+
+.hamburger.active-h .top-bar {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.hamburger.active-h .mid-bar {
+  opacity: 0;
+}
+.hamburger.active-h .low-bar {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+
+  /* NAVBAR ICON */
+  .navbar {
+    /*-moz-box-shadow:    0px -1px 5px #7c7a7c;*/
+    /*-webkit-box-shadow:  0px -1px 5px #7c7a7c;*/
+    /*box-shadow:   0px -1px 5px #7c7a7c;*/
+}
+.navbar-default .navbar-nav>.user>a,
+.navbar-default .navbar-nav>.user>a:hover,
+.navbar-default .navbar-nav>.user>a:focus {
+    color: #808285;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    background-color: #ececec;
+}
+.navbar-nav .divider-vertical {
+    height: 30px;
+    width: 1px;
+    margin: 11px 0 1px;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+.navbar .icon {
+    margin-top:0px;
+}
+.navbar .icon.icon-payment {
+    background-image: url(../img/dashboard/icons/ico-payment.png);
+    background-size: 20px;
+    width:20px;
+    height: 20px;
+    content: " ";
+}
+.navbar .round-bordered-img-small{
+    border : 0px;
+}
+.navbar .icon.icon-setting {
+    background-image: url(../img/dashboard/icons/ico-setting.png);
+    background-size: 20px;
+    width:20px;
+    height: 20px;
+    content: " ";
+}
+.navbar .icon.icon-thumbnail {
+    background-image: url(../img/dashboard/icons/ico-thumbnail.png);
+    background-size: 20px;
+    width:20px;
+    height: 20px;
+    content: " ";
+}
+.navbar .icon.icon-notif {
+    background-image: url(../img/dashboard/icons/ico-notification_color.png);
+    background-size: 20px;
+    width:20px;
+    height: 20px;
+    content: " ";
+}
+.navbar .icon.icon-notif.active {
+    background-image: url(../img/dashboard/icons/ico-notification_color_active.png);
+    background-size: 20px;
+    width:20px;
+    height: 20px;
+    content: " ";
+}
+/*.navbar .open .icon.icon-thumbnail {*/
+    /*background-image: url(../img/dashboard/icons/ico-thumbnail-active.png);*/
+    /*background-size: 20px;*/
+    /*width:20px;*/
+    /*height: 20px;*/
+    /*content: " ";*/
+/*}*/
+.navbar .icon.icon-plus {
+    background-image: url(../img/dashboard/icons/ico-plus.png);
+    background-size: 20px;
+    width:20px;
+    height: 20px;
+    content: " ";
+}
+.navbar .icon.icon-message {
+    background-image: url(../img/dashboard/icons/ico-message.png);
+    background-size: 20px;
+    width:20px;
+    height: 20px;
+    content: " ";
+}
+.navbar .icon.icon-feedback {
+    background-image: url(../img/dashboard/icons/ico-feedback.png);
+    background-size: 20px;
+    width:20px;
+    height: 20px;
+    content: " ";
+}
+.navbar .icon.icon-user {
+    background-image: url(../img/dashboard/icons/ico-user.png);
+    background-size: 20px;
+    width:20px;
+    height: 20px;
+    content: " ";
+    margin-right: 5px;
+}
+.navbar .icon.icon-cart {
+    background-image: url(../img/dashboard/icons/ico-cart.png);
+    background-size: 20px;
+    width:20px;
+    height: 20px;
+    content: " ";
+}
+.navbar .icon.icon-pr-cart {
+    background-image: url(../img/dashboard/icons/ico-pr-cart.png);
+    background-size: 20px;
+    width:20px;
+    height: 20px;
+    content: " ";
+}
+
+.navbar-nav .time-remaining p{
+  line-height : 10px;
+  font-size:10px;
+  font-family: "Gotham Medium";
+}
+
+.icon.people-icon {
+  background-image: url(../img/dashboard/icons/sidebar/claimer.png);
+}
+
+
+.round-bordered-img-small {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background-size: 120px;
+  border: 2px solid;
+  padding: 2px;
+  border-radius: 100%;
+  object-fit : cover;
+  margin-right: 5px;
+  margin-top: -3px;
+}

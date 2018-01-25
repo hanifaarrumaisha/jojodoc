@@ -1,0 +1,50 @@
+body {
+    font-family: "Gotham Book";
+}
+
+a:hover, a:active, a {
+    text-decoration: none;
+}
+
+.no-padding{
+    padding: 0;
+}
+
+.no-margin{
+    margin: 0!important;
+}
+
+@font-face {
+    font-family: "Gotham Thin";
+    src: url(../fonts/Gotham-Thin.woff);
+  }
+  @font-face {
+    font-family: "Gotham Book";
+    src: url(../fonts/Gotham-Book.woff);
+  }
+  @font-face {
+    font-family: "Gotham Bold";
+    src: url(../fonts/Gotham-Bold.woff);
+  }
+  @font-face {
+    font-family: "Gotham Black";
+    src: url(../fonts/Gotham-Black.woff);
+  }
+  @font-face {
+    font-family: "Gotham Medium";
+    src: url(../fonts/Gotham-Medium.woff);
+  }
+  
+
+    /****** notification screens ******/
+    .blur:not(.main-wheel) {
+        filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
+    
+        -webkit-filter: blur(1px);
+        filter: blur(1px);
+    
+    }
+    .blur-svg {
+        display: none;
+    }
+    

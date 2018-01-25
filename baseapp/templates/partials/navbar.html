@@ -1,0 +1,78 @@
+{% load static %}
+{% load staticfiles %}
+<!-- Headbar mobile only -->
+    <nav class="navbar navbar-inverse navbar-fixed-top headbar">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" id="menu-toggle" class="navbar-toggle collapsed hamburger active-h" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar top-bar"></span>
+                    <span class="icon-bar mid-bar"></span>
+                    <span class="icon-bar low-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Jojonomic Pro</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- Page Content -->
+
+    <nav class="navbar navbar-default navbar-fixed-top blur-act">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <ul class="nav navbar-nav">
+                    <li class=""><b class="navbar-text">Jojopedia </b></li>
+                </ul>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <ul class="nav navbar-nav navbar-right ">
+                <li><a href="#" class="time-remaining"><p class="no-margin ">0 Days </p><p class="no-margin ">Remaining</p></a></li>
+                <li><a href="http://localhost/jojonomic/jojopro/public/setting/payment"><div class="icon icon-payment"> </div></a></li>
+                <li role="separator" class="divider-vertical"></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">
+                        <div class="icon icon-thumbnail"></div>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-header">Shortcut</li><li role="separator" class="divider"></li>
+                        <li><a href="http://localhost/jojonomic/jojopro/public/procurement/claimer/purchase-request/create">Create Purchase Request</a></li>
+                        <li role="separator" class="divider"></li>            
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">
+                        <div class="icon icon-feedback"></div>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-header">Shortcut</li><li role="separator" class="divider"></li>
+                        <li><a href="http://localhost/jojonomic/jojopro/public/times/feedback/add">Create</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="http://localhost/jojonomic/jojopro/public/times/feedback/list">Your ticket list</a></li>            
+                    </ul>
+                </li>
+
+                <li role="separator" class="divider-vertical"></li>
+                <li class="dropdown user">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <img class="img-responsive round-bordered-img-small" src="{% static '/img/user3.png' %}">
+                        <b>purchaser jojopedia</b>
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://localhost/jojonomic/jojopro/public/profile/detail">Profile</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="http://localhost/jojonomic/jojopro/public/logout">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
