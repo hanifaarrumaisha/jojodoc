@@ -1,0 +1,11 @@
+.card{
+    width: 145px;
+    height: 125px;
+    border-radius: 10px;
+}
+
+card__content{
+    background-color: #42A5CE;
+    width: 145px;
+    height: 80px;
+}

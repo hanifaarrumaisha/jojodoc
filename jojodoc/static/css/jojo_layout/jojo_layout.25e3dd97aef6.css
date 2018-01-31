@@ -1,0 +1,12 @@
+.row div{
+    height: 275px;
+    padding-left:0px;
+    padding-right:0px;
+    border-left: 15px solid white;
+    border-right: 15px solid white;
+    background-color: #42A5CE;
+}
+
+#layout-preview .row{
+    border: 1px solid grey;
+}

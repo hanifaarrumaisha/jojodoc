@@ -1,0 +1,99 @@
+@media (min-width:1440px){
+    .card{
+        width: 160px;
+        height: 190px;
+    }
+
+    .card__content{
+        width: 160px;
+        height: 130px;
+    }
+}
+
+@media (max-width:1439px){
+    .card{
+        width: 125px;
+        height: 145px;
+    }
+
+    .card__content{
+        width: 125px;
+        height: 100px;
+    }
+}
+
+.color_example{
+    display: flex;
+}
+
+.card{
+    background-color: #F7F7F8;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.card__content{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.card__description{
+    padding-top: 3px;
+    padding-left: 12px;
+}
+
+.card__description div, .card__description h4{
+    margin-top: 0px;
+}
+
+.card__description h4{
+    margin-bottom: 0px;
+}
+
+.bgcolor--blue{
+    background-color: #42A5CE;
+}
+
+.bgcolor--black{
+    background-color: #333133;
+}
+
+.bgcolor--grey{
+    background-color:#e2e2e2;
+}
+
+.bgcolor--white{
+    background-color: #FFFFFF;
+}
+
+.bgcolor--bluedark{
+    background-color: #28708E;
+}
+
+.bgcolor--boldblack{
+    background-color:#000000;
+}
+
+.bgcolor--darkgrey{
+    background-color:#808285;
+}
+
+.bgcolor--green{
+    background-color: #4DB356;
+}
+
+.bgcolor--red{
+    background-color: #D2232B;
+}
+
+.bgcolor--orange{
+    background-color: #F89B24;
+}
+
+.bgcolor--yellow{
+    background-color: #FFEB3B;
+}
+
+.bgcolor--purple{
+    background-color: #890C4F;
+}

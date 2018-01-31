@@ -1,0 +1,16 @@
+/* style ini hanya untuk keperluan page component 
+
+- Hanifa Arrumaisha 30/01/2018
+*/
+
+.wrapper-reverse{
+    background-color: #42A5CE;
+}
+
+.btn{
+    margin: 5px;
+}
+
+.btn--primary--blue:nth-child(2), .btn--primary--blue:nth-child(3){
+    background-color: #28708E
+}

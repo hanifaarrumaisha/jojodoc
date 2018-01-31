@@ -1,3 +1,9 @@
+/* style ini adalah style yang digunakan untuk memodifikasi style bootstrap,
+sebelumnya style ini mereplace style bawaan bootstrap
+
+- Hanifa Arrumaisha 30/01/2018
+*/
+
 @font-face {
     src: url('../fonts/glyphicons-halflings-regular.eot');
     src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');

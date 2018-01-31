@@ -1,0 +1,13 @@
+.title{
+    border-bottom: 1px solid grey;
+}
+
+.title h4{
+    margin: 9px;
+    margin-top: 10px;
+}
+
+.content{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

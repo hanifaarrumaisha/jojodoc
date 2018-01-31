@@ -1,0 +1,13 @@
+/* Style ini berisi style compoenent-component yang berada di page component
+
+- Hanifa Arrumaisha 30/01/2018
+*/
+
+.btn{
+    font-family: 'Gotham Medium';
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 20px;
+    padding: 7px 25px 7px 25px;
+    border-radius: 3px;   
+}

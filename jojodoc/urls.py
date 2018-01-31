@@ -16,10 +16,16 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 import jojo_layout.urls as index
+from jojo_layout.views import index as layout
+from jojo_style.views import index as style
+from jojo_component.views import index as component
 
 app_name='jojodoc'
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', include(index, namespace='index')),
+    url(r'^layout', layout, name='layout'),
+    url(r'^style', style, name='style'),
+    url(r'^component', component, name='component'),
 ]

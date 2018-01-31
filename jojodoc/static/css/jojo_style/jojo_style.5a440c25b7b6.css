@@ -1,0 +1,67 @@
+/* style ini hanya untuk keperluan page style 
+
+- Hanifa Arrumaisha 30/01/2018
+*/
+
+@media (min-width:1440px){
+    .card{
+        width: 160px;
+        height: 190px;
+    }
+
+    .card__content{
+        width: 160px;
+        height: 130px;
+    }
+}
+
+@media (max-width:1439px){
+    .card{
+        width: 125px;
+        height: 145px;
+    }
+
+    .card__content{
+        width: 125px;
+        height: 100px;
+    }
+}
+
+.color_example{
+    display: flex;
+    margin: 10px;
+}
+
+.card{
+    background-color: #F7F7F8;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.card__content{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.card__description{
+    padding-top: 3px;
+    padding-left: 12px;
+}
+
+.card__description div, .card__description h4{
+    margin-top: 0px;
+}
+
+.card__description h4{
+    margin-bottom: 0px;
+}
+
+.btn-label{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sidebar__content{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

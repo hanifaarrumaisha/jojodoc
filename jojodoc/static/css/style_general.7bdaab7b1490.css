@@ -1,0 +1,90 @@
+/* Style ini digunakan untuk hal-hal yang bersifat general
+seperti typography, dan color pallete
+*/
+a:hover, a:active, a {
+    text-decoration: none;
+}
+
+.no-padding{
+    padding: 0;
+}
+
+.no-margin{
+    margin: 0!important;
+}
+
+@font-face {
+    font-family: "Gotham Thin";
+    src: url("../fonts/Gotham-Thin.d8224fc64d08.woff");
+  }
+  @font-face {
+    font-family: "Gotham Book";
+    src: url("../fonts/Gotham-Book.673b455258d5.woff");
+  }
+  @font-face {
+    font-family: "Gotham Bold";
+    src: url("../fonts/Gotham-Bold.dc0e7ba57bf5.woff");
+  }
+  @font-face {
+    font-family: "Gotham Black";
+    src: url("../fonts/Gotham-Black.295f2c67d7b3.woff");
+  }
+  @font-face {
+    font-family: "Gotham Medium";
+    src: url("../fonts/Gotham-Medium.b53ec9ca8a2a.woff");
+  }
+  
+body {
+    font-family: "Gotham Book";
+}
+
+
+    /****** notification screens ******/
+    .blur:not(.main-wheel) {
+        filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
+    
+        -webkit-filter: blur(1px);
+        filter: blur(1px);
+    
+    }
+    .blur-svg {
+        display: none;
+    }
+   
+/* TYPOGRAPHY */
+h1{
+    font-family: "Gotham Bold";
+    font-size: 36px;
+    text-transform: uppercase;
+    line-height: 42px;
+}
+
+h2{
+    font-family: "Gotham Bold";
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 28px;
+}
+
+
+h3{
+    font-family: "Gotham Bold";
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 26px;
+}
+
+
+h4{
+    font-family: "Gotham Bold";
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.content{
+    font-family: "Gotham Book";
+    font-size: 12px;
+    line-height: 18px;
+}
+

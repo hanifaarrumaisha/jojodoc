@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'jojo_layout',
+    'jojo_style',
+    'jojo_component',
     'baseapp',
 ]
 

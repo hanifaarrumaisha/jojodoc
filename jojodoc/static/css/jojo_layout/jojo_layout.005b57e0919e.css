@@ -1,0 +1,45 @@
+.row div{
+    height: 500px;
+    padding-left:0px;
+    padding-right:0px;
+    border-left: 15px solid white;
+    border-right: 15px solid white;
+    background-color: #42A5CE;
+}
+
+.container .row{
+    border: 1px solid grey;
+}
+
+@media (min-width:1400px){
+    .container{
+        margin: 30px;
+    }
+
+    #layout-preview{
+        margin: 13px;
+    }
+}
+@media (min-width:768px){
+    .container{
+        margin: 15px;
+    }
+
+    #layout-preview{
+        margin: 0px;
+    }
+}
+
+.title{
+    border-bottom: 1px solid grey;
+}
+
+.title h4{
+    margin: 9px;
+    margin-top: 42px;
+}
+
+.content{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

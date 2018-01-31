@@ -10,27 +10,38 @@
     <!-- Meta Data here -->
     <meta name="theme-color" content="#2196F3">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
     <!-- Links -->
     <!-- TODO ganti link bs -->
-    
-    <!-- <link type="text/css" rel="stylesheet" href="{% static 'css/lib/fontawesome-free-5.0.4/web-fonts-with-css/css/font-awesome-all.min.css"> -->
+    <link type="text/css" rel="stylesheet" href="{% static 'css/lib/font-awesome-4.7.0/css/font-awesome.min.css' %}">
     <link type="image/x-icon" rel="shortcut icon" href="{% static 'img/favicon-96x96.png' %}" />
     <link type="image/png" rel="shortcut icon" href="{% static 'img/favicon-16x16.png' %}" />
-    <link type="text/css" rel="stylesheet" href="{% static 'css/lib/bootstrap.min.css' %}" media="screen,projection"/>    
+    <!-- <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">     -->
+    
+    <!-- Style -->
+    <!-- <link type="text/css" rel="stylesheet" href="{% static 'css/lib/bootstrap.min.css' %}" media="screen,projection"/>     -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
     <link type="text/css" rel="stylesheet" href="{% static 'css/style_pisah.css' %}" media="screen,projection"/>    
     <!-- <link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}" media="screen,projection" /> -->
     <link type="text/css" rel="stylesheet" href="{% static 'css/style_general.css' %}" media="screen,projection" />
-    <link type="text/css" rel="stylesheet" href="{% static 'css/style_navbar.css' %}" media="screen,projection" />
-    <link type="text/css" rel="stylesheet" href="{% static 'css/style_sidebar.css' %}" media="screen,projection" />
+    <!-- <link type="text/css" rel="stylesheet" href="{% static 'css/style_navbar.css' %}" media="screen,projection" /> -->
+    <!-- <link type="text/css" rel="stylesheet" href="{% static 'css/style_sidebar.css' %}" media="screen,projection" /> -->
     <link type="text/css" rel="stylesheet" href="{% static 'css/style_screen.css' %}" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="{% static 'css/style_example.css' %}" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="{% static 'css/index.bundle.css' %}" media="screen,projection" />
-    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">    
-    <script
-    src="https://code.jquery.com/jquery-2.1.4.min.js"
-    integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw="
-    crossorigin="anonymous"></script>    
+    
+    <!-- style grid -->
+        <link type="text/css" rel="stylesheet" href="{% static 'css/grid/grid.css' %}" media="screen,projection" />
+    <link rel="stylesheet" media="(min-width: 768px) and (max-width:1049px)" href="{% static 'css/grid/grid-sm.css' %}">
+    <link rel="stylesheet" media="(min-width: 1050px) and (max-width:1439px)" href="{% static 'css/grid/grid-md.css' %}">
+    <link rel="stylesheet" media="(min-width: 1440px)" href="{% static 'css/grid/grid-lg.css' %}">
+    {% block css %}
+    {% endblock %}
+
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js" integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw=" crossorigin="anonymous"></script>    
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+   
     <!-- Scrollbar Custom -->
     <link type="text/css" rel="stylesheet" href="{% static 'css/lib/scrollbar-style/style.css' %}" />
     <link type="text/css" rel="stylesheet" href="{% static 'css/lib/scrollbar-style/prettify/prettify.css' %}" />
@@ -42,9 +53,6 @@
         });
     </script>
     
-    {% block css %}
-    {% endblock %}
-
 </head>
 
 
@@ -66,20 +74,16 @@
     <div id="header4"></div>
     <div id="header5"></div>
 
-    {% include 'partials/sidebar.html' %}
+        {% block content %}
+        {% endblock %}
 
-    {% include 'partials/navbar.html' %}
-
-    <div id="page-content-wrapper" class="">
-
-        <div class="container-fluid">
-                {% block content %}
-                {% endblock %}
-        </div>
-    </div>
 
     <!-- /#page-content-wrapper -->
 <!-- </div> -->
 
+<!-- Kalau pakai bs 4 -->
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
 </body>
 </html>

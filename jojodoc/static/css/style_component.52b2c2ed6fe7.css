@@ -1,0 +1,68 @@
+/* Style ini berisi style compoenent-component yang berada di page component
+
+- Hanifa Arrumaisha 30/01/2018
+*/
+
+.btn{
+    display: inline-block;
+    font-family: 'Gotham Medium';
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 20px;
+    padding: 7px 25px 7px 25px;
+    border-radius: 0.25rem;   
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn.btn--primary{
+    color: white;
+}
+
+.btn.btn--primary.btn--primary--blue{
+    background-color: #42A5CE;
+}
+
+.btn.btn--primary.btn--primary--black{
+    background-color: #333133;
+}
+
+.btn.btn--primary.btn--primary--reverse{
+    background-color: #FFFFFF;
+    color: #42A5CE;
+}
+
+.btn.btn--primary--blue:not(.btn--disabled):hover, .btn.btn--primary--blue:not(.btn--disabled):active{
+    background-color: #28708E;
+}
+
+.btn.btn--primary--reverse:not(.btn--disabled):hover, .btn.btn--primary--reverse:not(.btn--disabled):active{
+    background-color: #E2E2E2;    
+}
+
+.btn.btn--disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.btn:not(.btn--disabled) {
+    cursor: pointer;
+}
+
+.btn--secondary{
+    background-color: transparent;
+    color: #42A5CE;
+    border: 1px solid #42A5CE;
+}
+
+.btn--secondary--reverse{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}

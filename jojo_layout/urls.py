@@ -20,5 +20,5 @@ from .views import index
 app_name='jojo_layout'
 
 urlpatterns = [
-    url(r'^$', index, name='example'),
+    url(r'^$', index, name='jojo_layout'),
 ]

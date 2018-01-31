@@ -1,0 +1,20 @@
+.card{
+    background-color: #F7F7F8;
+    width: 125px;
+    height: 145px;
+    border-radius: 10px;
+}
+
+.card__content{
+    background-color: #42A5CE;
+    width: 125px;
+    height: 100px;
+}
+
+.card__description{
+    
+}
+
+.card__description div{
+    margin-top: 0px;
+}

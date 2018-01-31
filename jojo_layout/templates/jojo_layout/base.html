@@ -2,5 +2,97 @@
 {% load static %}
 {% load staticfiles %}
 
+{% block css %}
+    <link type="text/css" rel="stylesheet" href="{% static 'css/jojo_layout/jojo_layout.css' %}" media="screen,projection" />
+{% endblock %}
 {% block content %}
+
+<div class="container">
+    <div class="title">
+        <span><i class="fa fa-desktop" aria-hidden="true"></i></span> 
+        <h4 style="display: inline-block;">Display</h4>
+    </div>
+    <div class="content">
+        The display helpers allow you to control the display of content. This includes being conditionally visible based upon the current viewport, 
+        or the actual element display type.
+    </div>
+    <div class="content"s>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Device</th>
+                <th scope="col">Code</th>
+                <th scope="col">Type</th>
+                <th scope="col">Range</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                    <span><i class="fa fa-mobile" aria-hidden="true"></i></span> 
+                    Small
+                </td>
+                <td><b>sm</b></td>
+                <td>Tablet</td>
+                <td>768px - 1049px</td>
+              </tr>
+              <tr>
+                <td>
+                    <span><i class="fa fa-laptop" aria-hidden="true"></i></span> 
+                    Medium
+                </td>
+                <td><b>md</b></td>
+                <td>Laptop</td>
+                <td>1050px - 1439px</td>
+              </tr>
+              <tr>
+                <td>
+                    <span><i class="fa fa-desktop" aria-hidden="true"></i></span>
+                    Large
+                </td>
+                <td><b>lg</b></td>
+                <td>Desktop</td>
+                <td>1440px ></td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+    <div class="title">
+        <span><i class="fa fa-sort-amount-asc" aria-hidden="true"></i></span>
+        <h4 style="display: inline-block;"> GRID & BREAK POINTS</h4>
+    </div>
+    <div class="content">
+            Dashboard Container from navigation bar and will using 12 Grid Column and Gutter 15px.
+    </div>
+</div>
+
+<div id="layout-preview">
+    <div class="row">
+        <div class="col-sm-1 col-md-1 col-lg-1">
+        </div>
+        <div class="col-sm-1 col-md-1 col-lg-1">
+        </div>
+        <div class="col-sm-1 col-md-1 col-lg-1">
+        </div>
+        <div class="col-sm-1 col-md-1 col-lg-1">
+        </div>
+        <div class="col-sm-1 col-md-1 col-lg-1">
+        </div>
+        <div class="col-sm-1 col-md-1 col-lg-1">
+        </div>
+        <div class="col-sm-1 col-md-1 col-lg-1">
+        </div>
+        <div class="col-sm-1 col-md-1 col-lg-1">
+        </div>
+        <div class="col-sm-1 col-md-1 col-lg-1">
+        </div>
+        <div class="col-sm-1 col-md-1 col-lg-1">
+        </div>
+        <div class="col-sm-1 col-md-1 col-lg-1">
+        </div>
+        <div class="col-sm-1 col-md-1 col-lg-1">
+        </div>
+    </div>
+</div>
+
 {% endblock %}

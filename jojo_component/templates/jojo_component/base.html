@@ -1,0 +1,18 @@
+{% extends 'layout/base.html' %}
+{% load static %}
+{% load staticfiles %}
+
+{% block css %}
+    <link type="text/css" rel="stylesheet" href="{% static 'css/jojo_component/style.css' %}" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="{% static 'css/style_component.css' %}" media="screen,projection" />
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    {% include 'jojo_component/partials/button.html' %}
+    {% include 'jojo_component/partials/input.html' %}
+    {% include 'jojo_component/partials/flow.html' %}
+    {% include 'jojo_component/partials/summaryblock.html' %}
+</div>
+{% endblock %}
