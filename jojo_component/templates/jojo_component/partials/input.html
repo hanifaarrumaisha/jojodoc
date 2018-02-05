@@ -6,9 +6,118 @@
     <div>
         All fields should be shown with a label.<br /> 
         Both the label, placeholder and border has the colour #E2E2E2 . <br />
-        Other colours can be found in the sceme.
+        Other colours can be found in the sceme. <br />
     </div>
     <div>
-        <input type="text" placeholder="Username">
+        <form>
+            <div class="row">
+                <div class="form-group col-md-6 col-sm-6">
+                    <label>Label</label>
+                    <input type="text" class="form-control" placeholder="Placeholder">
+                </div>
+                <div class="form-group col-md-6 col-sm-6">
+                    <label id="disabled">Disabled</label>
+                    <input type="text" class="form-control" placeholder="Placeholder" disabled>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-6 col-sm-6">
+                    <label id="label-active">Active</label>
+                    <input id="input-active" type="text" class="form-control" placeholder="Placeholder">
+                </div>
+                <div class="form-group col-md-6 col-sm-6">
+                    <label id="label-invalid">Wrong Input</label>
+                    <input id="input-invalid" type="text" class="form-control" placeholder="Placeholder">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <label>Time Picker</label>
+                    <div class="input-group">
+                        <input type="time" class="form-control" placeholder="Placeholder" id="bg-time-right">
+                    </div>
+                </div>
+                <div class="form-group col-md-6 col-sm-6">
+                    <label>Dropdown</label>
+                    <select class="custom-select" id="bg-chevrondown-right">
+                        <option selected>Choose...</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <label>Date Picker</label>
+                    <div class="input-group">
+                        <input type="date" class="form-control" placeholder="Placeholder" id="bg-date-right">
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <label>With Icon</label>
+                    <div class="input-group">
+                        <input type="Input" id="bg-user-left" class="form-control" placeholder="Placeholder">
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <label>Text Area</label>
+                    <div class="input-group">
+                        <textarea rows="3" class="form-control" placeholder="Placeholder"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="example">
+                <div class="example-unit">
+                    <div class="checkbox-item">
+                        <div class="check">
+                            <input type="checkbox" name="checkbox_name" id="checkbox_id_1" value="1">
+                            <label for="checkbox_id_1">
+                                <span></span>
+                                Unchecked
+                            </label>    
+                        </div>
+                        <!-- <span class="checkbox-item-label">Checkbox</span> -->
+                    </div>
+                    <div class="checkbox-item">
+                        <div class="check">
+                            <input type="checkbox" name="checkbox_name" id="checkbox_id_2" value="1" checked>
+                            <label for="checkbox_id_2">
+                                <span></span>
+                                Checked
+                            </label>    
+                        </div>
+                        <!-- <span class="checkbox-item-label">Checkbox</span> -->
+                    </div> 
+                </div>
+                <div class="example-unit">
+                    <div class="radio-item">
+                        <input type="radio" name="radio_name" id="radio-id-1" value="1">
+                        <label for="radio-id-1" class="radio-button-label">
+                            Uncheck
+                        </label>    
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="radio_name" id="radio-id-2" value="2" checked>
+                        <label for="radio-id-2" class="radio-button-label">
+                            Check
+                        </label>
+                    </div> 
+                </div>
+                <div class="example-unit">
+                    <div style="padding-bottom:10px;">Toggle Button</div>
+                    <div>
+                        <span style="padding-right:10px;">Off</span>
+                        <div class="checkbox checkbox-slider--b-flat checkbox-slider-jojoblue" style="display:inline-block;">
+                            <label>
+                                <input type="checkbox" id="toggle-id" name="toggle_name">
+                                <span></span>
+                            </label>
+                        </div>
+                        <span style="padding-left:10px;">On</span>
+                    </div>
+                </div>            
+            </div>
+        </form>    
     </div>
 </section>

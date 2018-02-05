@@ -41,17 +41,4 @@ label#disabled{
 
 .example{
     display: flex;
-    margin: 15px;
-}
-
-.checkbox-item {
-    margin-bottom: 15px;
-}
-
-.radio-item{
-    margin-bottom: 15px; 
-}
-
-.checkbox-list{
-    margin-right: 20px;
 }

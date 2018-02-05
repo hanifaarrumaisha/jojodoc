@@ -18,3 +18,45 @@
 .btn--primary--reverse:nth-child(2), .btn--primary--reverse:nth-child(3){
     background-color: #E2E2E2
 }
+
+label#disabled{
+    color:#E2E2E2;
+}
+
+#label-active{
+    color: #42A5CE;
+}
+
+#input-active{
+    border-color: #42A5CE;
+}
+
+#label-invalid{
+    color: #D2232B;
+}
+
+#input-invalid{
+    border-color:#D2232B;
+}
+
+.example{
+    display: flex;
+    margin: 15px;
+}
+
+.checkbox-item {
+    margin-bottom: 15px;
+}
+
+.radio-item{
+    margin-bottom: 15px; 
+}
+
+.example-unit{
+    margin-right: 20px;
+}
+
+
+.col-md-6{
+    margin: 10px 0px 10px 0px;
+}

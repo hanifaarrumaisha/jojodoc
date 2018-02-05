@@ -20,7 +20,7 @@
 
 @media (min-width:1400px){
     .container{
-        padding: 30px;
+        padding: 0 30px 30px 30px;
     }
 
     #layout-preview{
@@ -29,7 +29,7 @@
 }
 @media (min-width:768px) and (max-width: 1439px){
     .container{
-        padding: 15px;
+        padding: 0 15px 15px 15px;
     }
 
     #layout-preview{
@@ -37,4 +37,6 @@
     }
 }
 
-
+section{
+    margin-bottom: 20px;
+}
