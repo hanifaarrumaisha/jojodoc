@@ -198,7 +198,7 @@
     line-height: 1.5;
     color: #495057;
     vertical-align: middle;
-    background: #fff url() no-repeat right 0.75rem center;
+    background: #fff url("") no-repeat right 0.75rem center;
     background-size: 8px 10px;
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
@@ -426,6 +426,6 @@ input[type="checkbox"] {
 
 /* STYLE SUMMARY BLOCK */
 
-#summaryblock1:hover{
+#summaryblock1:hover + path{
     fill: white;
 }

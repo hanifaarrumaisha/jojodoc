@@ -424,3 +424,71 @@ input[type="checkbox"] {
 }
 
 
+/* STYLE SUMMARY BLOCK */
+
+#summaryblock1:hover{
+    fill: white;
+    stroke: #F7941E;
+    stroke-width:2 ;
+    stroke-miterlimit:10; 
+    cursor: pointer;
+}
+
+#summaryblock1:hover~text{
+    fill:#F7941E;
+}
+
+#summaryblock2:hover{
+    fill: white;
+    stroke: #F7941E;
+    stroke-width:2 ;
+    stroke-miterlimit:10; 
+}
+
+#summaryblock2:hover~text{
+    fill:#F7941E;
+}
+
+#summaryblock3:hover{
+    fill: white;
+    stroke: #F7941E;
+    stroke-width:2 ;
+    stroke-miterlimit:10; 
+}
+
+#summaryblock3:hover~g text{
+    fill:#F7941E;
+}
+
+#summaryblock4:hover{
+    fill: white;
+    stroke: #F7941E;
+    stroke-width:2 ;
+    stroke-miterlimit:10; 
+}
+
+#summaryblock4:hover~g text{
+    fill:#F7941E;
+}
+
+#summaryblock5:hover{
+    fill: white;
+    stroke: #F7941E;
+    stroke-width:2 ;
+    stroke-miterlimit:10; 
+}
+
+#summaryblock5:hover~g text{
+    fill:#F7941E;
+}
+
+#summaryblock6:hover{
+    fill: white;
+    stroke: #F7941E;
+    stroke-width:2 ;
+    stroke-miterlimit:10; 
+}
+
+#summaryblock6:hover~g text{
+    fill:#F7941E;
+}
