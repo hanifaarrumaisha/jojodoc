@@ -1,2 +1,2 @@
 migrate: bash deployment.sh
-web: gunicorn praktikum.wsgi --log-file -
+web: gunicorn jojodoc.wsgi --log-file -
