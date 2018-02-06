@@ -490,3 +490,7 @@ g:hover > #summaryblock6{
     stroke-width:2 ;
     stroke-miterlimit:10; 
 }
+
+.summaryblock{
+    cursor: pointer;
+}
