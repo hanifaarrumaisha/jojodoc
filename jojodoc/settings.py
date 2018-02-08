@@ -25,7 +25,7 @@ SECRET_KEY = 'm5u-8k-=n-0h8oh_)$khut034k%2yzz07*_s1@*dyp0c&#dk!k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['jojodoc.herokuapp.com']
+ALLOWED_HOSTS = ['jojodoc.herokuapp.com','localhost']
 
 
 # Application definition
