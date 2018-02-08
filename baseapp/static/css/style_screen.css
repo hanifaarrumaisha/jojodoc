@@ -213,9 +213,9 @@
     #wrapper {
         padding-left: 70px;
     }
-    #wrapper  #sidebar-wrapper {
+    /* #wrapper  #sidebar-wrapper {
         left: 75px;
-    }
+    } */
     #wrapper .navbar{
         padding-left: 75px;
 
@@ -224,9 +224,9 @@
         opacity: 0;
     }
     /*icon position - no-toogled*/
-    #wrapper .sidebar-nav{
+    /* #wrapper .sidebar-nav{
         padding-top: 145px;
-    }
+    } */
     #wrapper .sidebar-nav div.panel .sidebar-icon.icon-hover {
         left: 202px;
         display: block;
