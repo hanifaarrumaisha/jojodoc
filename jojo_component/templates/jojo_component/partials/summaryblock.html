@@ -1,9 +1,13 @@
+{% load static %}
+{% load staticfiles %}
+
 <section>
     <div class="title">
         <i class="fa fa-caret-square-o-right" aria-hidden="true"></i>
         <h4 style="display:inline-block">summary block</h4>
     </div>
-    <div>
+    <!-- Summary block old-->
+    <!-- <div>
         <svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1152 648"
         enable-background="new 0 0 1152 648" xml:space="preserve">
@@ -51,5 +55,11 @@
            </g>
        </g>
        </svg>
-    </div>
+    </div> -->
+    <section class="sb">
+        <div><img src="{% static 'svg/mob-first.svg' %}"></div>
+        <div><img src="{% static 'svg/mob-center.svg' %}"></div>
+        <div><img src="{% static 'svg/mob-last.svg' %}"></div>
+        <div class="sb-square-last"><img src="{% static 'svg/mob-square.svg' %}"></div>
+    </section>
 </section>

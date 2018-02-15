@@ -60,3 +60,42 @@ label#disabled{
 .col-md-6{
     margin: 10px 0px 10px 0px;
 }
+
+.sb{
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    -ms-flex-direction: column;
+    -webkit-flex-flow: row wrap; 
+    flex-flow: row wrap; 
+    display: -webkit-box;
+    display: flex;
+    padding:0;
+    margin:0;
+    width: calc(100%-10px);
+    margin: 10px 0px 10px 0px;
+}
+
+.sb div{
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto; 
+    width: 20%; 
+}
+
+.sb div img { 
+    width: 100%; 
+    height: auto; 
+}
+
+.sb-square-last{
+    margin-left: 5px;
+}
+
+.sb-square-center{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sb-square-first{
+    margin-right: 5px;
+}
