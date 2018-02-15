@@ -426,71 +426,18 @@ input[type="checkbox"] {
 
 /* STYLE SUMMARY BLOCK */
 
-g:hover > #summaryblock1 + text{
-    fill: #F7941E;
-}
-
-g:hover > #summaryblock1{
+.sb-square:hover path ~ text{
     fill: white;
-    stroke: #F7941E;
-    stroke-width:2 ;
-    stroke-miterlimit:10; 
 }
 
-g:hover > #summaryblock2 ~g text{
-    fill: #F7941E;
+.sb-square:hover > path{
+    fill: #51B848;
 }
 
-g:hover > #summaryblock2{
+.sb-square ~ text:hover{
     fill: white;
-    stroke: #F7941E;
-    stroke-width:2 ;
-    stroke-miterlimit:10; 
-}
-g:hover > #summaryblock3 ~g text{
-    fill: #F7941E;
 }
 
-g:hover > #summaryblock3{
-    fill: white;
-    stroke: #F7941E;
-    stroke-width:2 ;
-    stroke-miterlimit:10; 
-}
-
-g:hover > #summaryblock4 ~g text{
-    fill: #F7941E;
-}
-
-g:hover > #summaryblock4{
-    fill: white;
-    stroke: #F7941E;
-    stroke-width:2 ;
-    stroke-miterlimit:10; 
-}
-
-g:hover > #summaryblock5 ~g text{
-    fill: #F7941E;
-}
-
-g:hover > #summaryblock5{
-    fill: white;
-    stroke: #F7941E;
-    stroke-width:2 ;
-    stroke-miterlimit:10; 
-}
-
-g:hover > #summaryblock6 ~g text{
-    fill: #F7941E;
-}
-
-g:hover > #summaryblock6{
-    fill: white;
-    stroke: #F7941E;
-    stroke-width:2 ;
-    stroke-miterlimit:10; 
-}
-
-.summaryblock{
+.sb-item:hover{
     cursor: pointer;
 }
