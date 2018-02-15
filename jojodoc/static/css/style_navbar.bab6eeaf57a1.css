@@ -137,7 +137,7 @@ body {
       margin-right: 0;
     }
     .sidebar-brand a{
-        background: url('../../static/img/Logogram-Jojonomic.png') center center no-repeat;
+        background: url("../../static/img/Logogram-Jojonomic.06e508d08926.png") center center no-repeat;
     }
 
     
@@ -153,7 +153,7 @@ body {
           padding-left: 265px;
       }
       .sidebar-brand a{
-          background: url('../../static/img/Logo Jojonomic.png') center center no-repeat;
+          background: url("../../static/img/Logo Jojonomic.a4b2297717a2.png") center center no-repeat;
       }
       .sidebar-nav li {
           text-indent: 20px;
