@@ -426,16 +426,46 @@ input[type="checkbox"] {
 
 /* STYLE SUMMARY BLOCK */
 
-.sb-square:hover path ~ text{
+.sb-item:hover text{
     fill: white;
 }
 
-.sb-square:hover > path{
+.sb-item path{
+    fill:white;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+}
+
+.sb-item:hover > .sb-square, .sb-square ~ text{
     fill: #51B848;
 }
 
-.sb-square ~ text:hover{
-    fill: white;
+.sb-square{
+    stroke: #51B848;
+}
+
+.sb-item:hover > .sb-first, .sb-first~ text{
+    fill: #EF434E;
+}
+
+.sb-first{
+    stroke: #EF434E;
+}
+
+.sb-item:hover > .sb-center, .sb-center~text{
+    fill: #F36F21;
+}
+
+.sb-center{
+    stroke: #F36F21;
+}
+
+.sb-item:hover > .sb-last, .sb-last~text{
+    fill: #9F3C71;
+}
+
+.sb-last{
+    stroke: #9F3C71;
 }
 
 .sb-item:hover{
