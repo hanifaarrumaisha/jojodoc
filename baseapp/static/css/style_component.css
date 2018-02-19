@@ -426,7 +426,7 @@ input[type="checkbox"] {
 
 /* STYLE SUMMARY BLOCK */
 
-.sb-item:hover text{
+.sb-item:hover text, .sb-item:hover rect{
     fill: white;
 }
 
@@ -444,7 +444,7 @@ input[type="checkbox"] {
     stroke: #51B848;
 }
 
-.sb-item:hover > .sb-first, .sb-first~ text{
+.sb-item:hover > .sb-first, .sb-first ~ text{
     fill: #EF434E;
 }
 
